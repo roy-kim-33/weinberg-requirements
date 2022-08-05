@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import NavBar from "./components/NavBar.js";
 import CourseList from "./components/CourseList.js";
 import ReqField from "./components/ReqField.js";
 import "./App.css";
+import { calculateNewValue } from "@testing-library/user-event/dist/utils/index.js";
 
 function App() {
   const courses_json = require("./data/flat_course_scrape.json");
@@ -15,13 +16,14 @@ function App() {
     "Major",
   ];
 
+
   return (
     <div className="App">
       <NavBar />
 
-      <div className="main container-fluid">
+      <div className="main container-fluid" >
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-3" style={{height: 'calc(100vh - 56px)'}}>
             <CourseList courses={courses_list}/>
           </div>
           <div className="col-lg-9">
