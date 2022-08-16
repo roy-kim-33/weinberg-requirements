@@ -6,8 +6,8 @@ import './App.sass';
 
 function App() {
 
-  const courses_json = require('./data/flat_course_scrape.json')
-  const courses_list = Object.values(courses_json)
+  const courses_json = require('./data/layered_course_scrape.json')
+  const courses_list = Object.keys(courses_json)
 
   const req_list = ["Distribution", "First-year Seminar", "Foreign Language", "Major"]
 
