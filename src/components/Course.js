@@ -1,69 +1,32 @@
-import React from "react";
-import { useDrag } from "react-dnd";
+import React from 'react'
 
 const Course = ({ course }) => {
-  let id = course.id;
-  let name = course.name;
+    return (
+        // <div>
+        //     <div>
+        //         <h5>{course.id}</h5>
+        //         <p>{course.name}</p>
+        //         <p>Prerequisite: {course.prereq}</p>
+        //         <span>Fulfills:
+        //             {course.distro.map((d) =>
+        //                 <p key={d}>{d}</p>
+        //             )}
+        //         </span>
+        //     </div>
+        // </div>
+        <div className="card h-10">
+            <div className="card-body">
+                <h6 className="card-title">{course.id}</h6>
+                <p className="card-text">{course.name}</p>
+                <p className="card-text">Prerequisite: {course.prereq}</p>
+                <span className="card-text">Fulfills:
+                    {course.distro.map((d) =>
+                        <p key={d}>{d}</p>
+                    )}
+                </span>
+            </div>
+        </div>
+    )
+}
 
-  const [{ isDragging }, dragRef] = useDrag({
-    type: "course",
-    item: { id, name },
-    collect: (monitor) => ({
-      isDragging: monitor.isDragging(),
-    }),
-  });
-
-  // const [collected, drag, dragPreview] = useDrag(() => ({
-  //     type: 'course',
-  //     item: { id, name }
-  //   }))
-
-  return (
-    <div className="card" ref={dragRef}>
-      <ul>
-        <h4>{isDragging && '😱'}</h4>
-        <h5>{course.id}</h5>
-        <p>{course.name}</p>
-        <p>Prerequisite: {course.prereq}</p>
-        <span>
-          Fulfills:
-          {course.distro.map((d) => (
-            <p key={d}>{d}</p>
-          ))}
-        </span>
-      </ul>
-    </div>
-  );
-
-  // return collected.isDragging ? (
-  //     <div className="card" ref={ dragPreview }>
-  //         <ul>
-  //             {/* <h4>{isDragging && '😱'}</h4> */}
-  //             <h5>{course.id}</h5>
-  //             <p>{course.name}</p>
-  //             <p>Prerequisite: {course.prereq}</p>
-  //             <span>Fulfills:
-  //                 {course.distro.map((d) =>
-  //                     <p key={d}>{d}</p>
-  //                 )}
-  //             </span>
-  //         </ul>
-  //     </div>
-  // ) : (
-  //     <div className="card" ref={ drag } {...collected}>
-  //         <ul>
-  //             {/* <h4>{isDragging && '😱'}</h4> */}
-  //             <h5>{course.id}</h5>
-  //             <p>{course.name}</p>
-  //             <p>Prerequisite: {course.prereq}</p>
-  //             <span>Fulfills:
-  //                 {course.distro.map((d) =>
-  //                     <p key={d}>{d}</p>
-  //                 )}
-  //             </span>
-  //         </ul>
-  //     </div>
-  // )
-};
-
-export default Course;
+export default Course
