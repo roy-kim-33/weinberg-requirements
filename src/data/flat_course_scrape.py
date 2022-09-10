@@ -63,6 +63,8 @@ async def scrape_subjects():
             print(f"Scraped Subject: {nth_dep_name}")
         # pprint(dep_dict)
         await browser.close()
+        subject_list.sort(key=lambda x: x['id'])
+        course_list.sort(key=lambda x: x['id'])
     return {"subjects": subject_list, "courses": course_list}
 
 async def scrape_courses(sub_page):
