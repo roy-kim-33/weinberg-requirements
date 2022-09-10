@@ -31,20 +31,49 @@ const List = () => {
   const scopeSubject = useSelector(selectScopeSubject);
   const scopeSearch = useSelector(selectScopeSearch);
 
-  if (scopeSubject) {
-    if (scopeSearch) {
-      return <CourseList 
-      courses={filterBySearch(filterBySubject(course_list, scopeSubject), scopeSearch)}/>
+  // if (scopeSubject) {
+  //   if (scopeSearch) {
+  //     return <CourseList 
+  //     courses={filterBySearch(filterBySubject(course_list, scopeSubject), scopeSearch)}/>
+  //   }
+  //   return <CourseList courses={filterBySubject(course_list, scopeSubject)}/>
+  // } else if (scopeSearch) {
+  //   return <CourseList courses={filterBySearch(course_list, scopeSearch)}/>
+  // }
+  // return (
+  //   <SubjectList subjects={subject_list}/>
+  // )
+  if (scopeSearch) {
+    if (scopeSearch.length < 3) {
+      return <p>Continue typing... 👀</p>
     }
-    return <CourseList courses={filterBySubject(course_list, scopeSubject)}/>
-  } else if (scopeSearch) {
+    if (scopeSubject) {
+      return <CourseList courses={filterBySearch(filterBySubject(course_list, scopeSubject), scopeSearch)}/>
+    }
     return <CourseList courses={filterBySearch(course_list, scopeSearch)}/>
+  } else if (scopeSubject) {
+    return <CourseList courses={filterBySubject(course_list, scopeSubject)}/>
   }
   return (
     <SubjectList subjects={subject_list}/>
   )
-  
-  
 };
 
 export default List;
+
+/*
+return (
+    <div className="List overflow-auto h-100">
+      {
+        create component called list to add subject_list OR course_list depending on scope state
+        if scopeSubject and scopeCourse are both null -> SubjectList
+        elif scopeCourse -> CourseList
+        
+        if scopeCourse -> CourseList (filtered by scopeCourse onto course id or name)
+        elif scopeSubject -> CourseList (filtered by subject id)
+        else -> SubjectList
+
+      }
+    </div>
+  );
+ */

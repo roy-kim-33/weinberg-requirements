@@ -11,12 +11,10 @@ import {
 
 const NavBar = () => {
   const dispatch = useDispatch()
-  let handleInputChange = (ev) => {
-    dispatch(setSearch(String(ev.target.value)))
-  }
+  const handleInputChange = (ev) => dispatch(setSearch(String(ev.target.value)))
+  
   // let handleInputChange = (ev) => console.log(ev.target.value)
   const scopeSearch = useSelector(selectScopeSearch);
-  const scopeSubject = useSelector(selectScopeSubject);
   return (
     <div className="container-fluid NavBar">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
