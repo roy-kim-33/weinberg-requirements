@@ -1,17 +1,23 @@
-import React from 'react'
-import Course from './Course.js'
-import '../styles/CourseList.sass'
+import React from "react";
+import Course from "./Course.js";
 
-const CourseList = ({ courses }) => {
+const CourseList = ({courses}) => {
   return (
     <div className="CourseList overflow-auto h-100">
+      <h6>COURSES</h6>
+      <hr/>
+      <p>{courses.length} results</p>
       {
-        courses.map((course) =>
-          <Course key={course.id} course={course} />
-        )
+        courses.map((course, i) => (
+          <Course 
+            key={i} 
+            id={course.id} 
+            name={course.name} 
+          />
+        ))
       }
     </div>
   )
-}
+};
 
-export default CourseList
+export default CourseList;

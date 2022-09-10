@@ -20,7 +20,7 @@ async def scrape_departments():
         context = await browser.new_context()
         page = await context.new_page()
         await page.goto("https://catalogs.northwestern.edu/undergraduate/courses-az/")
-        replace_url = page.url # url string to subtract from subpage url to get department id
+        # replace_url = page.url # url string to subtract from subpage url to get department id
         base_url = "https://catalogs.northwestern.edu"
 
         dep_locator = page.locator('#content #textcontainer ul:not(.letternav) li')
@@ -31,6 +31,7 @@ async def scrape_departments():
         for i in range(dep_count):
             nth_dep = dep_locator.nth(i)
             # print(await nth.inner_text(), '\n')
+            nth_dep_name = await nth_dep.inner_text()
             url_address = await nth_dep.locator('a').get_attribute("href")
             sub_page = await context.new_page()
             await sub_page.goto(base_url + url_address)
@@ -45,12 +46,16 @@ async def scrape_departments():
             # dep_id = re.sub('\W', '', dep_id)
             # dep_id = dep_id.upper()
 
-            dep_dict[dep_id] = await scrape_courses(sub_page=sub_page)
+            # dep_dict[dep_id] = await scrape_courses(sub_page=sub_page)
+            # dep_dict[dep_id]['subject'] = nth_dep_name.rsplit('(', 1)[0]
+            dep_dict[nth_dep_name] = await scrape_courses(sub_page=sub_page)
+            # dep_dict[nth_dep_name]['fullname'] = nth_dep_name
 
             # course_count, title_count = await scrape_courses(sub_page=sub_page)
             # print(i,": ", course_count, title_count)
             # if course_count != title_count:
             #     break
+            print(f"Scraped Department: {nth_dep_name}")
         # pprint(dep_dict)
         await browser.close()
     return dep_dict

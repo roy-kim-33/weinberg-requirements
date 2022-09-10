@@ -10,58 +10,68 @@ async def main():
     creates json file of courses from NU course catalog
     flat data structure
     '''
-    # await scrape_departments()
+    data = await scrape_subjects()
     with open("./src/data/flat_course_scrape.json", "w") as outfile:
-        json.dump(await scrape_departments(), outfile)
+        json.dump(data['courses'], outfile)
+    
+    with open("./src/data/flat_subject_scrape.json", "w") as outfile:
+        json.dump(data['subjects'], outfile)
 
-async def scrape_departments():
+async def scrape_subjects():
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
         await page.goto("https://catalogs.northwestern.edu/undergraduate/courses-az/")
-        replace_url = page.url # url string to subtract from subpage url to get department id
+        # replace_url = page.url # url string to subtract from subpage url to get subject id
         base_url = "https://catalogs.northwestern.edu"
 
         dep_locator = page.locator('#content #textcontainer ul:not(.letternav) li')
         dep_count = await dep_locator.count()
         # print("total: ", dep_count)
-        
-        data_dict = {} # data to return: info on all courses from all departments 
+        subject_list = [] # list of subjects (id and name)
+        course_list = [] # list of info on all courses from all subject 
         for i in range(dep_count):
             nth_dep = dep_locator.nth(i)
             # print(await nth.inner_text(), '\n')
+            nth_dep_name = await nth_dep.inner_text()
             url_address = await nth_dep.locator('a').get_attribute("href")
             sub_page = await context.new_page()
             await sub_page.goto(base_url + url_address)
 
-            # pattern = "https://catalogs.northwestern.edu/undergraduate/courses-az/(.*?)/"
-            # dep_id = re.search(pattern=pattern, string=sub_page.url).group(1).upper()
+            pattern = "https://catalogs.northwestern.edu/undergraduate/courses-az/(.*?)/"
+            dep_id = re.search(pattern=pattern, string=sub_page.url).group(1).upper()
             # dep_id = substring found where (.*?) is within pattern string
-            # in this case, the department id
+            # in this case, the subject id
 
             # another way to get dep_id
             # dep_id = sub_page.url.replace(replace_url, "")
             # dep_id = re.sub('\W', '', dep_id)
             # dep_id = dep_id.upper()
 
-            data_dict = data_dict | await scrape_courses(sub_page=sub_page)
+            # data_dict = data_dict | await scrape_courses(sub_page=sub_page)
+            # | == new way to merge dictionaries in python 3.9
+            course_list.extend(await scrape_courses(sub_page=sub_page))
+
+            subject_name = nth_dep_name.rsplit(f'({dep_id})', maxsplit=1)[0].strip()
+            subject_list.append({"id": dep_id, "name": subject_name})
 
             # course_count, title_count = await scrape_courses(sub_page=sub_page)
             # print(i,": ", course_count, title_count)
             # if course_count != title_count:
             #     break
+            print(f"Scraped Subject: {nth_dep_name}")
         # pprint(dep_dict)
         await browser.close()
-    return data_dict
+    return {"subjects": subject_list, "courses": course_list}
 
 async def scrape_courses(sub_page):
     course_locator = sub_page.locator('#content #textcontainer .sc_sccoursedescs .courseblock')
     course_count = await course_locator.count()
     # title_count = await course_locator.locator('[class*="title"]').count()
+    
 
-
-    courses_dict = {}
+    courses_list = []
     for i in range(course_count):
         nth_course = course_locator.nth(i)
     
@@ -70,7 +80,10 @@ async def scrape_courses(sub_page):
         header = header.strip()
         # isolating the dep name and number
         header_text_list = header.split(' ', maxsplit=2) # 3 elements
-        id = header_text_list[0] + ' ' + header_text_list[1]
+        
+        subject = header_text_list[0]
+        number = header_text_list[1]
+        id = subject + ' ' + number
         name_unit_list = header_text_list[-1].rsplit('(', maxsplit=1)
         name = name_unit_list[0].strip()
         unit = re.sub('[a-zA-Z]|\(|\)|\s', '', name_unit_list[-1])
@@ -87,6 +100,8 @@ async def scrape_courses(sub_page):
         
         course_info = {}
         course_info["id"] = id
+        course_info["subject"] = subject
+        course_info["number"] = number
         # if name.count("(") > 1:
         #     print(id, name, sub_page.url)
         # if not unit.isnumeric():
@@ -99,8 +114,8 @@ async def scrape_courses(sub_page):
         course_info["extra"] = extra_list
         
 
-        courses_dict[id] = course_info
-    return courses_dict
+        courses_list.append(course_info)
+    return courses_list
     
 async def scrape_extra(extra_locator):
     extra_count = await extra_locator.count()

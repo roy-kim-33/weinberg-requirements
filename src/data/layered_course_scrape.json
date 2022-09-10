@@ -1,5 +1,5 @@
 {
-  "AF_AM_ST": {
+  "African American Studies (AF_AM_ST)": {
     "AF_AM_ST 101-6": {
       "id": "AF_AM_ST 101-6",
       "name": "First-Year Seminar",
@@ -436,7 +436,7 @@
       "extra": []
     }
   },
-  "AFST": {
+  "African Studies (AFST)": {
     "AFST 101-6": {
       "id": "AFST 101-6",
       "name": "First-Year Seminar",
@@ -519,7 +519,7 @@
       "extra": []
     }
   },
-  "AMER_ST": {
+  "American Studies (AMER_ST)": {
     "AMER_ST 301-1": {
       "id": "AMER_ST 301-1",
       "name": "Seminar for Majors",
@@ -584,7 +584,7 @@
       "extra": []
     }
   },
-  "ANTHRO": {
+  "Anthropology (ANTHRO)": {
     "ANTHRO 101-6": {
       "id": "ANTHRO 101-6",
       "name": "First-Year Seminar",
@@ -1162,7 +1162,7 @@
       "extra": []
     }
   },
-  "ARABIC": {
+  "Arabic (ARABIC)": {
     "ARABIC 111-1": {
       "id": "ARABIC 111-1",
       "name": "Arabic I",
@@ -1344,7 +1344,7 @@
       "extra": []
     }
   },
-  "ART_HIST": {
+  "Art History (ART_HIST)": {
     "ART_HIST 101-6": {
       "id": "ART_HIST 101-6",
       "name": "First-Year Seminar",
@@ -1912,7 +1912,7 @@
       "extra": []
     }
   },
-  "ART": {
+  "Art Theory & Practice (ART)": {
     "ART 101-6": {
       "id": "ART 101-6",
       "name": "First-Year Seminar",
@@ -2040,7 +2040,7 @@
       "extra": []
     }
   },
-  "ASIAN_AM": {
+  "Asian American Studies (ASIAN_AM)": {
     "ASIAN_AM 103-6": {
       "id": "ASIAN_AM 103-6",
       "name": "First-Year Seminar",
@@ -2293,7 +2293,7 @@
       "extra": []
     }
   },
-  "ASIAN_LC": {
+  "Asian Languages and Cultures (ASIAN_LC)": {
     "ASIAN_LC 110-6": {
       "id": "ASIAN_LC 110-6",
       "name": "First-Year Seminar",
@@ -2574,7 +2574,7 @@
       "extra": []
     }
   },
-  "ASTRON": {
+  "Astronomy (ASTRON)": {
     "ASTRON 101-0": {
       "id": "ASTRON 101-0",
       "name": "Modern Cosmology",
@@ -2738,7 +2738,7 @@
       "extra": []
     }
   },
-  "BIOL_SCI": {
+  "Biological Sciences (BIOL_SCI)": {
     "BIOL_SCI 100-0": {
       "id": "BIOL_SCI 100-0",
       "name": "Introduction to Biological Sciences at Northwestern",
@@ -3487,7 +3487,7 @@
       "extra": []
     }
   },
-  "BMD_ENG": {
+  "Biomedical Engineering (BMD_ENG)": {
     "BMD_ENG 101-0": {
       "id": "BMD_ENG 101-0",
       "name": "Introduction to Biomedical Engineering",
@@ -3858,7 +3858,7 @@
       "extra": []
     }
   },
-  "BUS_INST": {
+  "Business Institutions (BUS_INST)": {
     "BUS_INST 301-0": {
       "id": "BUS_INST 301-0",
       "name": "Accounting",
@@ -3923,7 +3923,7 @@
       "extra": []
     }
   },
-  "CRDV": {
+  "Career Development (CRDV)": {
     "CRDV 301-0": {
       "id": "CRDV 301-0",
       "name": "Introduction to Career Development",
@@ -4339,7 +4339,7 @@
       "extra": []
     }
   },
-  "LDRSHP": {
+  "Center for Leadership (LDRSHP)": {
     "LDRSHP 204-0": {
       "id": "LDRSHP 204-0",
       "name": "Paradigms and Strategies of Leadership",
@@ -4377,7 +4377,7 @@
       "extra": []
     }
   },
-  "CHEM_ENG": {
+  "Chemical Engineering (CHEM_ENG)": {
     "CHEM_ENG 190-0": {
       "id": "CHEM_ENG 190-0",
       "name": "Engineering of Chemical and Biological Processes",
@@ -4658,7 +4658,7 @@
       "extra": []
     }
   },
-  "CHEM": {
+  "Chemistry (CHEM)": {
     "CHEM 100-0": {
       "id": "CHEM 100-0",
       "name": "Introduction to Calculus and Chemistry",
@@ -5227,7 +5227,7 @@
       "extra": []
     }
   },
-  "CFS": {
+  "Chicago Field Studies (CFS)": {
     "CFS 291-0": {
       "id": "CFS 291-0",
       "name": "Analysis of Field Experience",
@@ -5323,7 +5323,7 @@
       "extra": []
     }
   },
-  "CHINESE": {
+  "Chinese (CHINESE)": {
     "CHINESE 111-1": {
       "id": "CHINESE 111-1",
       "name": "Chinese I",
@@ -5586,7 +5586,7 @@
       "extra": []
     }
   },
-  "CIV_ENV": {
+  "Civil and Environmental Engineering (CIV_ENV)": {
     "CIV_ENV 101-0": {
       "id": "CIV_ENV 101-0",
       "name": "Introduction to Civil and Environmental Engineering",
@@ -6155,7 +6155,7 @@
       "extra": []
     }
   },
-  "CLASSICS": {
+  "Classics - Readings in English (CLASSICS)": {
     "CLASSICS 101-6": {
       "id": "CLASSICS 101-6",
       "name": "First-Year Seminar",
@@ -6368,7 +6368,7 @@
       "extra": []
     }
   },
-  "COG_SCI": {
+  "Cognitive Science (COG_SCI)": {
     "COG_SCI 110-0": {
       "id": "COG_SCI 110-0",
       "name": "Introduction to Cognitive Science",
@@ -6469,7 +6469,7 @@
       "extra": []
     }
   },
-  "CMN": {
+  "Communication Related Courses (CMN)": {
     "CMN 110-0": {
       "id": "CMN 110-0",
       "name": "Internship",
@@ -6525,7 +6525,7 @@
       "extra": []
     }
   },
-  "CSD": {
+  "Communication Sciences and Disorders (CSD)": {
     "CSD 108-0": {
       "id": "CSD 108-0",
       "name": "Sound and Communication Health",
@@ -6796,7 +6796,7 @@
       "extra": []
     }
   },
-  "COMM_ST": {
+  "Communication Studies (COMM_ST)": {
     "COMM_ST 102-0": {
       "id": "COMM_ST 102-0",
       "name": "Public Speaking",
@@ -7428,7 +7428,7 @@
       "extra": []
     }
   },
-  "COMP_LIT": {
+  "Comparative Literary Studies (COMP_LIT)": {
     "COMP_LIT 104-6": {
       "id": "COMP_LIT 104-6",
       "name": "First-Year Seminar",
@@ -7646,7 +7646,7 @@
       "extra": []
     }
   },
-  "COMP_ENG": {
+  "Computer Engineering (COMP_ENG)": {
     "COMP_ENG 203-0": {
       "id": "COMP_ENG 203-0",
       "name": "Introduction to Computer Engineering",
@@ -7873,7 +7873,7 @@
       "extra": []
     }
   },
-  "COMP_SCI": {
+  "Computer Science (COMP_SCI)": {
     "COMP_SCI 101-0": {
       "id": "COMP_SCI 101-0",
       "name": "Computer Science: Concepts, Philosophy, and Connections",
@@ -8343,7 +8343,7 @@
       "extra": []
     }
   },
-  "CONDUCT": {
+  "Conducting (CONDUCT)": {
     "CONDUCT 323-0": {
       "id": "CONDUCT 323-0",
       "name": "Marching Band Techniques",
@@ -8471,7 +8471,7 @@
       "extra": []
     }
   },
-  "DANCE": {
+  "Dance (DANCE)": {
     "DANCE 101-1": {
       "id": "DANCE 101-1",
       "name": "Introduction to the Dance Experience",
@@ -8860,7 +8860,7 @@
       "extra": []
     }
   },
-  "DATA_ENG": {
+  "Data Science & Engineering (DATA_ENG)": {
     "DATA_ENG 200-0": {
       "id": "DATA_ENG 200-0",
       "name": "Foundations of Data Science",
@@ -8880,7 +8880,7 @@
       "extra": []
     }
   },
-  "EARTH": {
+  "Earth and Planetary Sciences (EARTH)": {
     "EARTH 101-0": {
       "id": "EARTH 101-0",
       "name": "Earth Science for the 21st Century",
@@ -9206,7 +9206,7 @@
       "extra": []
     }
   },
-  "ECON": {
+  "Economics (ECON)": {
     "ECON 100-BR": {
       "id": "ECON 100-BR",
       "name": "Introduction to Problem-Solving in Economics",
@@ -9721,7 +9721,7 @@
       "extra": []
     }
   },
-  "ELEC_ENG": {
+  "Electrical Engineering (ELEC_ENG)": {
     "ELEC_ENG 100-0": {
       "id": "ELEC_ENG 100-0",
       "name": "Electrons, Photons, and Bits: Adventures in Electrical and Computer Engineering",
@@ -10119,7 +10119,7 @@
       "extra": []
     }
   },
-  "ES_APPM": {
+  "Engineering Science & Applied Math (ES_APPM)": {
     "ES_APPM 252-1": {
       "id": "ES_APPM 252-1",
       "name": "Honors Calculus for Engineers",
@@ -10256,7 +10256,7 @@
       "extra": []
     }
   },
-  "ENGLISH": {
+  "English (ENGLISH)": {
     "ENGLISH 100-SW": {
       "id": "ENGLISH 100-SW",
       "name": "Summer Academic Workshop in Writing",
@@ -11189,7 +11189,7 @@
       "extra": []
     }
   },
-  "ENTREP": {
+  "Entrepreneurship & Innovation (ENTREP)": {
     "ENTREP 225-0": {
       "id": "ENTREP 225-0",
       "name": "Principles of Entrepreneurship",
@@ -11299,7 +11299,7 @@
       "extra": []
     }
   },
-  "ENVR_POL": {
+  "Environmental Policy & Culture (ENVR_POL)": {
     "ENVR_POL 101-6": {
       "id": "ENVR_POL 101-6",
       "name": "First-Year Seminar",
@@ -11418,7 +11418,7 @@
       "extra": []
     }
   },
-  "ENVR_SCI": {
+  "Environmental Science (ENVR_SCI)": {
     "ENVR_SCI 201-0": {
       "id": "ENVR_SCI 201-0",
       "name": "Earth: A Habitable Planet",
@@ -11465,7 +11465,7 @@
       "extra": []
     }
   },
-  "KELLG_FE": {
+  "Financial Economics (KELLG_FE)": {
     "KELLG_FE 310-0": {
       "id": "KELLG_FE 310-0",
       "name": "Principles of Finance",
@@ -11503,7 +11503,7 @@
       "extra": []
     }
   },
-  "FRENCH": {
+  "French (FRENCH)": {
     "FRENCH 105-6": {
       "id": "FRENCH 105-6",
       "name": "First-Year Seminar",
@@ -12072,7 +12072,7 @@
       "extra": []
     }
   },
-  "GNDR_ST": {
+  "Gender Studies (GNDR_ST)": {
     "GNDR_ST 101-6": {
       "id": "GNDR_ST 101-6",
       "name": "First-Year Seminar",
@@ -12424,7 +12424,7 @@
       "extra": []
     }
   },
-  "GEN_ENG": {
+  "General Engineering (GEN_ENG)": {
     "GEN_ENG 190-0": {
       "id": "GEN_ENG 190-0",
       "name": "Engineering Freshman Seminar",
@@ -12678,7 +12678,7 @@
       "extra": []
     }
   },
-  "GEN_LA": {
+  "General Liberal Arts (GEN_LA)": {
     "GEN_LA 111-1": {
       "id": "GEN_LA 111-1",
       "name": "Introductory Topics in Language Study I",
@@ -12896,7 +12896,7 @@
       "extra": []
     }
   },
-  "GEN_MUS": {
+  "General Music (GEN_MUS)": {
     "GEN_MUS 101-6": {
       "id": "GEN_MUS 101-6",
       "name": "First-Year Seminar",
@@ -13150,7 +13150,7 @@
       "extra": []
     }
   },
-  "GEOG": {
+  "Geography (GEOG)": {
     "GEOG 211-0": {
       "id": "GEOG 211-0",
       "name": "World Biogeography",
@@ -13233,7 +13233,7 @@
       "extra": []
     }
   },
-  "GERMAN": {
+  "German (GERMAN)": {
     "GERMAN 101-1": {
       "id": "GERMAN 101-1",
       "name": "Beginning German",
@@ -13873,7 +13873,7 @@
       "extra": []
     }
   },
-  "GBL_HLTH": {
+  "Global Health (GBL_HLTH)": {
     "GBL_HLTH 301-0": {
       "id": "GBL_HLTH 301-0",
       "name": "Introduction to International Public Health",
@@ -14113,7 +14113,7 @@
       "extra": []
     }
   },
-  "GREEK": {
+  "Greek (GREEK)": {
     "GREEK 101-1": {
       "id": "GREEK 101-1",
       "name": "Elementary Greek",
@@ -14214,7 +14214,7 @@
       "extra": []
     }
   },
-  "HEBREW": {
+  "Hebrew (HEBREW)": {
     "HEBREW 111-1": {
       "id": "HEBREW 111-1",
       "name": "Hebrew I",
@@ -14342,7 +14342,7 @@
       "extra": []
     }
   },
-  "HIND_URD": {
+  "Hindi and Urdu (HIND_URD)": {
     "HIND_URD 111-1": {
       "id": "HIND_URD 111-1",
       "name": "Hindi-Urdu I",
@@ -14434,7 +14434,7 @@
       "extra": []
     }
   },
-  "HISTORY": {
+  "History (HISTORY)": {
     "HISTORY 101-6": {
       "id": "HISTORY 101-6",
       "name": "First-Year Seminar--European History",
@@ -15633,7 +15633,7 @@
       "extra": []
     }
   },
-  "HDC": {
+  "Human Development in Context (HDC)": {
     "HDC 301-0": {
       "id": "HDC 301-0",
       "name": "The Counseling Process: Theory & Practice",
@@ -15707,7 +15707,7 @@
       "extra": []
     }
   },
-  "HUM": {
+  "Humanities (HUM)": {
     "HUM 100-1-BR": {
       "id": "HUM 100-1-BR",
       "name": "Introduction to Critical Thinking in the Humanities and Social Sciences",
@@ -15965,7 +15965,7 @@
       "extra": []
     }
   },
-  "IEMS": {
+  "Industrial Engineering & Management Sciences (IEMS)": {
     "IEMS 201-0": {
       "id": "IEMS 201-0",
       "name": "Introduction to Statistics",
@@ -16237,7 +16237,7 @@
       "extra": []
     }
   },
-  "ISEN": {
+  "Initiative for Sustainability & Energy at NU (ISEN)": {
     "ISEN 210-0": {
       "id": "ISEN 210-0",
       "name": "Introduction to Sustainability: Challenges and Solutions",
@@ -16302,7 +16302,7 @@
       "extra": []
     }
   },
-  "IMC": {
+  "Integrated Marketing Communications (IMC)": {
     "IMC 300-0": {
       "id": "IMC 300-0",
       "name": "Introduction to Integrated Marketing Communications",
@@ -16448,7 +16448,7 @@
       "extra": []
     }
   },
-  "INTG_SCI": {
+  "Integrated Science (INTG_SCI)": {
     "INTG_SCI 398-0": {
       "id": "INTG_SCI 398-0",
       "name": "Undergraduate Research",
@@ -16459,7 +16459,7 @@
       "extra": []
     }
   },
-  "INTL_ST": {
+  "International Studies (INTL_ST)": {
     "INTL_ST 290-0": {
       "id": "INTL_ST 290-0",
       "name": "Topics in International Studies",
@@ -16542,7 +16542,7 @@
       "extra": []
     }
   },
-  "ITALIAN": {
+  "Italian (ITALIAN)": {
     "ITALIAN 101-1": {
       "id": "ITALIAN 101-1",
       "name": "Elementary Italian",
@@ -16948,7 +16948,7 @@
       "extra": []
     }
   },
-  "JAPANESE": {
+  "Japanese (JAPANESE)": {
     "JAPANESE 111-1": {
       "id": "JAPANESE 111-1",
       "name": "Japanese I",
@@ -17085,7 +17085,7 @@
       "extra": []
     }
   },
-  "JAZZ_ST": {
+  "Jazz Studies (JAZZ_ST)": {
     "JAZZ_ST 162-0": {
       "id": "JAZZ_ST 162-0",
       "name": "Applied Jazz for Music Majors",
@@ -17294,7 +17294,7 @@
       "extra": []
     }
   },
-  "JWSH_ST": {
+  "Jewish Studies (JWSH_ST)": {
     "JWSH_ST 101-6": {
       "id": "JWSH_ST 101-6",
       "name": "First-Year Seminar",
@@ -17440,7 +17440,7 @@
       "extra": []
     }
   },
-  "JOUR": {
+  "Journalism (JOUR)": {
     "JOUR 190-BR": {
       "id": "JOUR 190-BR",
       "name": "Bridge Program",
@@ -17982,7 +17982,7 @@
       "extra": []
     }
   },
-  "KELLG_CP": {
+  "Kellogg Certificate Program for Undergraduates (KELLG_CP)": {
     "KELLG_CP 350-0": {
       "id": "KELLG_CP 350-0",
       "name": "Kellogg Certificate Summer Internship",
@@ -18002,7 +18002,7 @@
       "extra": []
     }
   },
-  "KOREAN": {
+  "Korean (KOREAN)": {
     "KOREAN 111-1": {
       "id": "KOREAN 111-1",
       "name": "Korean I",
@@ -18139,7 +18139,7 @@
       "extra": []
     }
   },
-  "LATIN": {
+  "Latin (LATIN)": {
     "LATIN 101-1": {
       "id": "LATIN 101-1",
       "name": "Elementary Latin",
@@ -18222,7 +18222,7 @@
       "extra": []
     }
   },
-  "LATIN_AM": {
+  "Latin American & Caribbean Studies (LATIN_AM)": {
     "LATIN_AM 101-6": {
       "id": "LATIN_AM 101-6",
       "name": "First-Year Seminar",
@@ -18242,7 +18242,7 @@
       "extra": []
     }
   },
-  "LATINO": {
+  "Latina and Latino Studies (LATINO)": {
     "LATINO 101-6": {
       "id": "LATINO 101-6",
       "name": "First-Year Seminar",
@@ -18373,7 +18373,7 @@
       "extra": []
     }
   },
-  "LOC": {
+  "Learning & Organizational Change (LOC)": {
     "LOC 211-0": {
       "id": "LOC 211-0",
       "name": "Intro to Organization Theory & Practice",
@@ -18501,7 +18501,7 @@
       "extra": []
     }
   },
-  "LRN_SCI": {
+  "Learning Sciences (LRN_SCI)": {
     "LRN_SCI 201-0": {
       "id": "LRN_SCI 201-0",
       "name": "Cognition and Action",
@@ -18620,7 +18620,7 @@
       "extra": []
     }
   },
-  "LEGAL_ST": {
+  "Legal Studies (LEGAL_ST)": {
     "LEGAL_ST 101-6": {
       "id": "LEGAL_ST 101-6",
       "name": "First-Year Seminar",
@@ -18878,7 +18878,7 @@
       "extra": []
     }
   },
-  "LING": {
+  "Linguistics (LING)": {
     "LING 101-6": {
       "id": "LING 101-6",
       "name": "First-Year Seminar",
@@ -19159,7 +19159,7 @@
       "extra": []
     }
   },
-  "KELLG_MA": {
+  "Managerial Analytics (KELLG_MA)": {
     "KELLG_MA 320-0": {
       "id": "KELLG_MA 320-0",
       "name": "Analytical Decision Modeling",
@@ -19206,7 +19206,7 @@
       "extra": []
     }
   },
-  "MAT_SCI": {
+  "Materials Science & Engineering (MAT_SCI)": {
     "MAT_SCI 190-0": {
       "id": "MAT_SCI 190-0",
       "name": "MS & E Freshman Seminar",
@@ -19559,7 +19559,7 @@
       "extra": []
     }
   },
-  "MMSS": {
+  "Math Methods in the Social Sciences (MMSS)": {
     "MMSS 211-1": {
       "id": "MMSS 211-1",
       "name": "Social Science Theories & Meth-First Yr",
@@ -19642,7 +19642,7 @@
       "extra": []
     }
   },
-  "MATH": {
+  "Mathematics (MATH)": {
     "MATH 100-0": {
       "id": "MATH 100-0",
       "name": "Quantitative Reasoning",
@@ -20400,7 +20400,7 @@
       "extra": []
     }
   },
-  "MECH_ENG": {
+  "Mechanical Engineering (MECH_ENG)": {
     "MECH_ENG 222-0": {
       "id": "MECH_ENG 222-0",
       "name": "Thermodynamics & Statistical Mechanics - I",
@@ -20753,7 +20753,7 @@
       "extra": []
     }
   },
-  "MENA": {
+  "Middle East and North African Studies (MENA)": {
     "MENA 101-6": {
       "id": "MENA 101-6",
       "name": "First-Year Seminar",
@@ -20885,7 +20885,7 @@
       "extra": []
     }
   },
-  "MUSIC": {
+  "Music (MUSIC)": {
     "MUSIC 111-1": {
       "id": "MUSIC 111-1",
       "name": "Music Theory I",
@@ -21247,7 +21247,7 @@
       "extra": []
     }
   },
-  "MUS_COMP": {
+  "Music Composition (MUS_COMP)": {
     "MUS_COMP 111-0": {
       "id": "MUS_COMP 111-0",
       "name": "Class Composition",
@@ -21420,7 +21420,7 @@
       "extra": []
     }
   },
-  "MUSIC_ED": {
+  "Music Education (MUSIC_ED)": {
     "MUSIC_ED 230-0": {
       "id": "MUSIC_ED 230-0",
       "name": "Woodwind Class",
@@ -21773,7 +21773,7 @@
       "extra": []
     }
   },
-  "MUS_TECH": {
+  "Music Technology (MUS_TECH)": {
     "MUS_TECH 259-0": {
       "id": "MUS_TECH 259-0",
       "name": "Introduction to Music Technology",
@@ -21901,7 +21901,7 @@
       "extra": []
     }
   },
-  "MUS_THRY": {
+  "Music Theory (MUS_THRY)": {
     "MUS_THRY 251-0": {
       "id": "MUS_THRY 251-0",
       "name": "Intro to Music Cognition",
@@ -22047,7 +22047,7 @@
       "extra": []
     }
   },
-  "MUSICOL": {
+  "Musicology (MUSICOL)": {
     "MUSICOL 313-0": {
       "id": "MUSICOL 313-0",
       "name": "World Music Cultures",
@@ -22346,7 +22346,7 @@
       "extra": []
     }
   },
-  "NAV_SCI": {
+  "Naval Science (NAV_SCI)": {
     "NAV_SCI 110-0": {
       "id": "NAV_SCI 110-0",
       "name": "Introduction to Naval Organization",
@@ -22456,7 +22456,7 @@
       "extra": []
     }
   },
-  "NEUROSCI": {
+  "Neuroscience (NEUROSCI)": {
     "NEUROSCI 101-6": {
       "id": "NEUROSCI 101-6",
       "name": "First-Year Seminar",
@@ -22611,7 +22611,7 @@
       "extra": []
     }
   },
-  "NICO": {
+  "Northwestern Institute for Complex Systems (NICO)": {
     "NICO 101-0": {
       "id": "NICO 101-0",
       "name": "Introduction to Programming for Big Data",
@@ -22640,7 +22640,7 @@
       "extra": []
     }
   },
-  "PERF_ST": {
+  "Performance Studies (PERF_ST)": {
     "PERF_ST 101-0": {
       "id": "PERF_ST 101-0",
       "name": "Modes of Performance",
@@ -23056,7 +23056,7 @@
       "extra": []
     }
   },
-  "PERSIAN": {
+  "Persian (PERSIAN)": {
     "PERSIAN 111-1": {
       "id": "PERSIAN 111-1",
       "name": "Persian I",
@@ -23121,7 +23121,7 @@
       "extra": []
     }
   },
-  "PRDV": {
+  "Personal Development (PRDV)": {
     "PRDV 101-1": {
       "id": "PRDV 101-1",
       "name": "McCormick First-Year Experience",
@@ -23204,7 +23204,7 @@
       "extra": []
     }
   },
-  "PHIL": {
+  "Philosophy (PHIL)": {
     "PHIL 109-6": {
       "id": "PHIL 109-6",
       "name": "First-Year Seminar in Philosophy",
@@ -23845,7 +23845,7 @@
       "extra": []
     }
   },
-  "PHYSICS": {
+  "Physics (PHYSICS)": {
     "PHYSICS 103-0": {
       "id": "PHYSICS 103-0",
       "name": "Ideas of Physics",
@@ -24324,7 +24324,7 @@
       "extra": []
     }
   },
-  "PIANO": {
+  "Piano (PIANO)": {
     "PIANO 161-0": {
       "id": "PIANO 161-0",
       "name": "Applied Piano for Music Majors",
@@ -24542,7 +24542,7 @@
       "extra": []
     }
   },
-  "POLISH": {
+  "Polish (POLISH)": {
     "POLISH 108-1": {
       "id": "POLISH 108-1",
       "name": "Elementary Polish",
@@ -24616,7 +24616,7 @@
       "extra": []
     }
   },
-  "POLI_SCI": {
+  "Political Science (POLI_SCI)": {
     "POLI_SCI 101-6": {
       "id": "POLI_SCI 101-6",
       "name": "First-Year Seminar",
@@ -25422,7 +25422,7 @@
       "extra": []
     }
   },
-  "PORT": {
+  "Portuguese (PORT)": {
     "PORT 101-1": {
       "id": "PORT 101-1",
       "name": "Elementary Portuguese",
@@ -25572,7 +25572,7 @@
       "extra": []
     }
   },
-  "PSYCH": {
+  "Psychology (PSYCH)": {
     "PSYCH 101-6": {
       "id": "PSYCH 101-6",
       "name": "First-Year Seminar",
@@ -26133,7 +26133,7 @@
       "extra": []
     }
   },
-  "RTVF": {
+  "Radio/Television/Film (RTVF)": {
     "RTVF 190-0": {
       "id": "RTVF 190-0",
       "name": "Media Construction",
@@ -26594,7 +26594,7 @@
       "extra": []
     }
   },
-  "RELIGION": {
+  "Religion (RELIGION)": {
     "RELIGION 101-6": {
       "id": "RELIGION 101-6",
       "name": "First-Year Seminar",
@@ -27208,7 +27208,7 @@
       "extra": []
     }
   },
-  "RUSSIAN": {
+  "Russian (RUSSIAN)": {
     "RUSSIAN 101-1": {
       "id": "RUSSIAN 101-1",
       "name": "Elementary Russian (Prior to 2019 taught as SLAVIC 101-1)",
@@ -27345,7 +27345,7 @@
       "extra": []
     }
   },
-  "SESP": {
+  "School of Education & Social Policy Core (SESP)": {
     "SESP 114-0": {
       "id": "SESP 114-0",
       "name": "Summer Internship",
@@ -27689,7 +27689,7 @@
       "extra": []
     }
   },
-  "SHC": {
+  "Science in Human Culture (SHC)": {
     "SHC 115-6": {
       "id": "SHC 115-6",
       "name": "First-Year Seminar",
@@ -27727,7 +27727,7 @@
       "extra": []
     }
   },
-  "DSGN": {
+  "Segal Design Institute (DSGN)": {
     "DSGN 106-1": {
       "id": "DSGN 106-1",
       "name": "Design Thinking and Communication",
@@ -28035,7 +28035,7 @@
       "extra": []
     }
   },
-  "SLAVIC": {
+  "Slavic Languages & Literatures (SLAVIC)": {
     "SLAVIC 105-6": {
       "id": "SLAVIC 105-6",
       "name": "First-Year Seminar",
@@ -28342,7 +28342,7 @@
       "extra": []
     }
   },
-  "SOC_POL": {
+  "Social Policy (SOC_POL)": {
     "SOC_POL 201-0": {
       "id": "SOC_POL 201-0",
       "name": "Introduction to Social Policy",
@@ -28461,7 +28461,7 @@
       "extra": []
     }
   },
-  "SOCIOL": {
+  "Sociology (SOCIOL)": {
     "SOCIOL 101-6": {
       "id": "SOCIOL 101-6",
       "name": "First-Year Seminar",
@@ -29055,7 +29055,7 @@
       "extra": []
     }
   },
-  "SPANISH": {
+  "Spanish (SPANISH)": {
     "SPANISH 101-1": {
       "id": "SPANISH 101-1",
       "name": "Elementary Spanish",
@@ -29655,7 +29655,7 @@
       "extra": []
     }
   },
-  "STAT": {
+  "Statistics (STAT)": {
     "STAT 101-6": {
       "id": "STAT 101-6",
       "name": "First-Year Seminar",
@@ -30008,7 +30008,7 @@
       "extra": []
     }
   },
-  "STRINGS": {
+  "String Instruments (STRINGS)": {
     "STRINGS 141-0": {
       "id": "STRINGS 141-0",
       "name": "Applied Violin for Music Majors",
@@ -30424,7 +30424,7 @@
       "extra": []
     }
   },
-  "SWAHILI": {
+  "Swahili (SWAHILI)": {
     "SWAHILI 111-1": {
       "id": "SWAHILI 111-1",
       "name": "Swahili I",
@@ -30534,7 +30534,7 @@
       "extra": []
     }
   },
-  "TEACH_ED": {
+  "Teacher Education (TEACH_ED)": {
     "TEACH_ED 302-0": {
       "id": "TEACH_ED 302-0",
       "name": "Social Contexts of Education",
@@ -30779,7 +30779,7 @@
       "extra": []
     }
   },
-  "THEATRE": {
+  "Theatre (THEATRE)": {
     "THEATRE 120-0": {
       "id": "THEATRE 120-0",
       "name": "Production in Context",
@@ -31789,7 +31789,7 @@
       "extra": []
     }
   },
-  "TRANS": {
+  "Transportation (TRANS)": {
     "TRANS 310-0": {
       "id": "TRANS 310-0",
       "name": "Seminar in Transportation and Logistics",
@@ -31809,7 +31809,7 @@
       "extra": []
     }
   },
-  "TURKISH": {
+  "Turkish (TURKISH)": {
     "TURKISH 111-1": {
       "id": "TURKISH 111-1",
       "name": "Turkish I",
@@ -31865,7 +31865,7 @@
       "extra": []
     }
   },
-  "VOICE": {
+  "Voice & Opera (VOICE)": {
     "VOICE 110-0": {
       "id": "VOICE 110-0",
       "name": "Applied Voice for Music Majors",
@@ -32056,7 +32056,7 @@
       "extra": []
     }
   },
-  "WIND_PER": {
+  "Wind & Percussion (WIND_PER)": {
     "WIND_PER 111-0": {
       "id": "WIND_PER 111-0",
       "name": "Applied Flute for Music Majors",
@@ -32499,7 +32499,7 @@
       "extra": []
     }
   },
-  "YIDDISH": {
+  "Yiddish (YIDDISH)": {
     "YIDDISH 266-0": {
       "id": "YIDDISH 266-0",
       "name": "Introduction to Yiddish Culture: Images of the Shtetl",

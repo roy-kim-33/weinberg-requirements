@@ -1,12 +1,21 @@
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  emptyScope,
+  setSubject,
+  setSearch,
+  emptySearch,
+  selectScopeSubject,
+} from "../redux/features/scopeSlice";
 import styles from "../styles/styles.module.sass";
 
-const Course = ({ id, name }) => {
+const Subject = ({ id, name }) => {
+  const dispatch = useDispatch();
   return (
     <div className="card">
       <button 
         className={styles.button}
-        // onClick={() => dispatch(setSubject(Strin(id)))}
+        onClick={() => dispatch(setSubject(String(id)))}
         >
         <div className="card-body">
           <h6 className="card-title m-0">
@@ -20,4 +29,4 @@ const Course = ({ id, name }) => {
   );
 };
 
-export default Course;
+export default Subject;
