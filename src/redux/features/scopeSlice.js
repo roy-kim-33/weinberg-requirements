@@ -16,7 +16,8 @@ export const scopeSlice = createSlice({
         state.subject = action.payload
     },
     setSearch: (state, action) => {
-        state.search = state.search.concat(action.payload)
+        // state.search = state.search.concat(action.payload)
+        state.search = action.payload
         // add feature to wait for user to finish typing before filtering
     },
     emptySearch: (state) => {
