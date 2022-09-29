@@ -12,7 +12,7 @@ import {
   selectScopeSubject,
   selectScopeSearch,
 } from "../redux/features/scopeSlice";
-import "../styles/CourseList.sass";
+// import "../styles/CourseList.sass";
 
 
 const filterBySubject = (courses, filter_subject) => {
