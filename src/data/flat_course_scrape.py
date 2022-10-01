@@ -41,27 +41,14 @@ async def scrape_subjects():
 
             pattern = "https://catalogs.northwestern.edu/undergraduate/courses-az/(.*?)/"
             dep_id = re.search(pattern=pattern, string=sub_page.url).group(1).upper()
-            # dep_id = substring found where (.*?) is within pattern string
-            # in this case, the subject id
-
-            # another way to get dep_id
-            # dep_id = sub_page.url.replace(replace_url, "")
-            # dep_id = re.sub('\W', '', dep_id)
-            # dep_id = dep_id.upper()
-
             # data_dict = data_dict | await scrape_courses(sub_page=sub_page)
             # | == new way to merge dictionaries in python 3.9
             course_list.extend(await scrape_courses(sub_page=sub_page))
 
             subject_name = nth_dep_name.rsplit(f'({dep_id})', maxsplit=1)[0].strip()
             subject_list.append({"id": dep_id, "name": subject_name})
-
-            # course_count, title_count = await scrape_courses(sub_page=sub_page)
-            # print(i,": ", course_count, title_count)
-            # if course_count != title_count:
-            #     break
+            
             print(f"Scraped Subject: {nth_dep_name}")
-        # pprint(dep_dict)
         await browser.close()
         subject_list.sort(key=lambda x: x['id'])
         course_list.sort(key=lambda x: x['id'])
@@ -70,7 +57,6 @@ async def scrape_subjects():
 async def scrape_courses(sub_page):
     course_locator = sub_page.locator('#content #textcontainer .sc_sccoursedescs .courseblock')
     course_count = await course_locator.count()
-    # title_count = await course_locator.locator('[class*="title"]').count()
     
 
     courses_list = []
@@ -104,10 +90,6 @@ async def scrape_courses(sub_page):
         course_info["id"] = id
         course_info["subject"] = subject
         course_info["number"] = number
-        # if name.count("(") > 1:
-        #     print(id, name, sub_page.url)
-        # if not unit.isnumeric():
-        #     print(unit, id, sub_page.url)
         course_info["name"] = name
         course_info["unit"] = unit
         course_info["description"] = description
